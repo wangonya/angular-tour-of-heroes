@@ -1,0 +1,8 @@
+<h3 class="text-2xl">{{hero.name | uppercase}} Details</h3>
+<div><span>id: {{hero.id}}</span></div>
+<div>
+  <label for="hero-name">name:
+    <input type="text" id="hero-name" [(ngModel)]="hero.name"
+    class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+  </label>
+</div>
