@@ -123,7 +123,8 @@ html {
 
 h1,
 h3,
-h4 {
+h4,
+p {
   margin: 0;
 }
 
@@ -205,6 +206,7 @@ code {
 }
 
 img,
+svg,
 canvas {
   display: block;
   vertical-align: middle;
@@ -249,12 +251,33 @@ img {
           appearance: none;
 }
 
+.bg-teal-100 {
+  background-color: #e6fffa;
+}
+
+.border-teal-500 {
+  border-color: #38b2ac;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
 
+.rounded-b {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-t-4 {
+  border-top-width: 4px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex {
@@ -273,6 +296,10 @@ img {
   justify-content: space-between;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .leading-tight {
   line-height: 1.25;
 }
@@ -280,6 +307,10 @@ img {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .mr-6 {
@@ -294,9 +325,19 @@ img {
   padding: 1.5rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .px-3 {
@@ -313,8 +354,16 @@ img {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
 .focus\:shadow-outline:focus {
   box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.fill-current {
+  fill: currentColor;
 }
 
 .text-center {
@@ -323,6 +372,14 @@ img {
 
 .text-gray-700 {
   color: #4a5568;
+}
+
+.text-teal-500 {
+  color: #38b2ac;
+}
+
+.text-teal-900 {
+  color: #234e52;
 }
 
 .text-blue-500 {
@@ -343,4 +400,8 @@ img {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
