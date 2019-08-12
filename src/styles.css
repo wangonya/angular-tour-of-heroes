@@ -122,7 +122,8 @@ html {
 }
 
 h1,
-h3 {
+h3,
+h4 {
   margin: 0;
 }
 
@@ -181,7 +182,8 @@ button,
 }
 
 h1,
-h3 {
+h3,
+h4 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -255,10 +257,6 @@ img {
   border-width: 1px;
 }
 
-.cursor-not-allowed {
-  cursor: not-allowed;
-}
-
 .flex {
   display: flex;
 }
@@ -321,10 +319,6 @@ img {
 
 .text-center {
   text-align: center;
-}
-
-.text-gray-400 {
-  color: #cbd5e0;
 }
 
 .text-gray-700 {
